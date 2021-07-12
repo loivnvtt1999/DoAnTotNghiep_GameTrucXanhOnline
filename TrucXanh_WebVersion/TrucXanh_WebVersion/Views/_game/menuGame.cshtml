@@ -1,0 +1,676 @@
+﻿@model ModelGame.tblAccount
+@{
+    ViewBag.Title = "menuGame";
+    Layout = "~/Views/Shared/_LayoutMenuGame.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+        @@keyframes rotation {
+            to {
+                transform: rotate(360deg) translateX(-50%) translateY(-50%);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main_box {
+            width: 100%;
+            height: 100vh;
+            color: #fff;
+            background-image: url('../../Image/background_menugame.jpg');
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+            .main_box .slidebar_menu {
+                position: fixed;
+                height: 100vh;
+                width: 280px;
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            }
+
+        .slidebar_menu .logo {
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            box-shadow: 0 0 6px rgba(255, 255, 255,0.5);
+        }
+
+            .slidebar_menu .logo a {
+                font-family: 'Bangers', cursive;
+                color: hsl(50, 50%, 50%);
+                font-size: 2em;
+                text-align: center;
+                margin: 20px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+        @@keyframes glow {
+            from {
+                text-shadow: 0 0 20px #2d9da9;
+            }
+
+            to {
+                text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+            }
+        }
+
+        .slidebar_menu .menu {
+            position: absolute;
+            top: 80px;
+            width: 100%;
+        }
+
+            .slidebar_menu .menu li {
+                margin-top: 6px;
+                padding: 14px 20px;
+                transition: all 0.3s linear;
+            }
+
+                .slidebar_menu .menu li a {
+                    color: #008080;
+                    font-size: 25px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-family: 'Bangers', cursive;
+                }
+
+                .slidebar_menu .menu li:hover {
+                    border-left: 1px solid #fff;
+                    box-shadow: 0 0 4px rgba(255,255,255,0.5);
+                }
+
+        .mainMenuSetting {
+            width: 400px;
+            height: 300px;
+            padding: 40px;
+            position: absolute;
+            border-radius: 24px;
+            top: 50%;
+            left: 60%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            overflow: hidden;
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 0 6px rgba(255,255,255,0.5);
+        }
+
+            .mainMenuSetting .continue {
+                font-size: 40px;
+                text-decoration: none;
+                color: #eeee81;
+                font-weight: bold;
+                margin-top: 10%;
+                font-family: Arial;
+                text-transform: uppercase;
+                font-family: 'Bangers', cursive;
+                letter-spacing: 3px;
+            }
+
+                .mainMenuSetting .continue:hover {
+                    color: #4db1bc;
+                    border-left: 4px solid #fff;
+                    box-shadow: 0 0 4px rgba(253,254,255,0.5);
+                }
+
+            .mainMenuSetting .newgame {
+                font-size: 40px;
+                text-decoration: none;
+                color: #eeee81;
+                font-weight: bold;
+                font-family: Arial;
+                text-transform: uppercase;
+                font-family: 'Bangers', cursive;
+                letter-spacing: 3px;
+            }
+
+                .mainMenuSetting .newgame:hover {
+                    color: #4db1bc;
+                    border-left: 4px solid #fff;
+                    box-shadow: 1px 2px 4px rgba(253,254,255,0.5);
+                }
+
+            .mainMenuSetting .setting {
+                font-size: 40px;
+                text-decoration: none;
+                color: #eeee81;
+                font-weight: bold;
+                font-family: Arial;
+                text-transform: uppercase;
+                font-family: 'Bangers', cursive;
+                letter-spacing: 3px;
+            }
+
+                .mainMenuSetting .setting:hover {
+                    color: #4db1bc;
+                    border-left: 4px solid #fff;
+                    box-shadow: 1px 2px 4px rgba(253,254,255,0.5);
+                }
+
+            .mainMenuSetting .achi {
+                font-size: 40px;
+                text-decoration: none;
+                color: #eeee81;
+                font-weight: bold;
+                font-family: Arial;
+                text-transform: uppercase;
+                font-family: 'Bangers', cursive;
+                letter-spacing: 3px;
+            }
+
+                .mainMenuSetting .achi:hover {
+                    color: #4db1bc;
+                    border-left: 4px solid #fff;
+                    box-shadow: 1px 2px 4px rgba(253,254,255,0.5);
+                }
+
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .settingGame_Content {
+            background-image: url('../../Image/backgroundDangKy.jpg');
+            margin-top: 200px;
+            width: 250px;
+            margin-left: 370px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .settingGame_Content select {
+                border: 0;
+                background: none;
+                display: block;
+                margin-top: 40px;
+                margin-left: 220px;
+                border: 2px solid #3498db;
+                padding: 14px 10px;
+                background: aquamarine;
+                width: 300px;
+                height: 70px;
+                outline: none;
+                color: black;
+                border-radius: 24px;
+                transition: 0.25s;
+                font-family: 'Serif', Times New Roman;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .settingGame_Content h2 {
+                font-family: 'Bangers', cursive;
+                color: lightgreen;
+                font-size: 2em;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .settingGame_Content option {
+                font-family: 'Serif', Times New Roman;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .settingGame_Content input[type="button"] {
+                border: 0;
+                display: block;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                width: 200px;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                float: left;
+                font-family: 'Bangers', cursive;
+                margin-left: 37%;
+            }
+
+                .settingGame_Content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+        .close {
+            color: red;
+            float: right;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: azure;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        .yourScoreModal-content {
+            background-image: url('../../Image/wingame.jpg');
+            margin-top: 40px;
+            margin-left: 200px;
+            width: 150px;
+            height: 600px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 80%;
+            background-size: cover;
+        }
+
+            .yourScoreModal-content .top5 {
+                font-family: 'Bangers', cursive;
+                color: #4a8b2c;
+                font-size: 2em;
+                width: 450px;
+                margin-left: 400px;
+                text-align: center;
+                animation: neon 2s infinite;
+            }
+
+            .yourScoreModal-content .divHighScore {
+                border: 1px solid;
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                top: 15%;
+                left: 30%;
+                border-radius: 24px;
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+                background-image: url('../../Image/backgroundHighScore.jpg');
+            }
+
+                .yourScoreModal-content .divHighScore .playerName {
+                    font-family: 'Bangers', cursive;
+                    color: #4a8b2c;
+                    font-size: 2em;
+                    width: 150px;
+                    float: left;
+                    text-align: left;
+                }
+
+                .yourScoreModal-content .divHighScore .playerScore {
+                    font-family: 'Bangers', cursive;
+                    color: #4a8b2c;
+                    font-size: 2em;
+                    position: relative;
+                    margin-left: 30%;
+                    width: 340px;
+                    text-align: right;
+                }
+
+                .yourScoreModal-content .divHighScore .rank {
+                    font-family: 'Bangers', cursive;
+                    color: #4a8b2c;
+                    font-size: 2em;
+                    width: 200px;
+                    float: left;
+                    text-align: left;
+                }
+
+                .yourScoreModal-content .divHighScore .lblName {
+                    font-family: 'Bangers', cursive;
+                    color: #b200ff;
+                    font-size: 2em;
+                    margin-top: 2%;
+                    margin-left: 20%;
+                    text-align: center;
+                    width: 150px;
+                }
+
+                .yourScoreModal-content .divHighScore .lblScore {
+                    font-family: 'Bangers', cursive;
+                    color: #b200ff;
+                    font-size: 2em;
+                    margin-left: 40%;
+                    text-align: center;
+                }
+
+                .yourScoreModal-content .divHighScore .lblRank {
+                    width: 200px;
+                    font-family: 'Bangers', cursive;
+                    color: #b200ff;
+                    font-size: 2em;
+                    margin-top: 2%;
+                    text-align: center;
+                }
+
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .guidline-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 200px;
+            width: 250px;
+            margin-left: 370px;
+            height: 300px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+            .guidline-content .box {
+                width: 700px;
+                position: fixed;
+                border-radius: 24px;
+                margin-top: 120px;
+                margin-left: 370px;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                overflow: hidden;
+                height: auto;
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            }
+                .guidline-content .box p {
+                    font-family: 'Bangers', cursive;
+                    color: hsl(50, 50%, 50%);
+                    position: relative;
+                    z-index: 2;
+                    font-size: 1em;
+                    margin-left: 0%;
+                    letter-spacing: 0px;
+                    text-transform: uppercase;
+                }
+            .guidline-content.close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .guidline-content.close:hover,
+                .guidline-content.close:focus {
+                    color: azure;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+    </style>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    @if (Session["NonLevel"] != null)
+    {
+        <script type="text/javascript">
+            alert("@Session["NonLevel"].ToString()");
+        </script>
+    }
+    <div class="main_box">
+        <div class="slidebar_menu">
+            <div class="logo">
+                <a href="#">Trò chơi trúc xanh</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    @if (Session["loginAccount"] != null)
+                    {
+                        <li>
+                            <a href="#">
+                                Xin chào: @Session["loginAccount"]
+                            </a>
+                        </li>
+                    }
+                    <li>
+                        <a id="guild_id">
+                            Hướng dẫn
+                        </a>
+                    </li>
+                    @if (Session["loginAccount"] != null)
+                    {
+                        <li>
+                            <a href="@Url.Action("Logout","_account")">
+                                Đăng xuất
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="@Url.Action("Login","_account")">
+                                Thoát
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mainMenuSetting">
+        @if (Session["loginAccount"] != null && Session["Old"] != null)
+        {
+            <a href="@Url.Action("continueGame","_game",new {Alias=int.Parse(Session["playerID"].ToString()) })" class="continue">Tiếp tục</a><br /><br />
+        }
+        <a href="@Url.Action("playGame","_game")" class="newgame">Chơi mới</a><br /><br />
+        <a class="setting" id="settingID">Cài đặt màn</a><br /><br />
+        <a class="achi" id="achi_id">Thành tích</a><br /><br />
+    </div>
+    <div id="settingGame" class="modal">
+        <div class="settingGame_Content">
+            <span class="close" id="spanClose">&times;</span>
+            <h2>Chọn chế độ chơi mong muốn</h2>
+            <select name="type" id="typeLV">
+                <option value="1">Dễ</option>
+                <option value="2">Khó</option>
+            </select>
+            <br />
+            <span id="checkPlayer"></span>
+            <br />
+            <input type="button" id="playSetting" value="ĐỒNG Ý" />
+        </div>
+    </div>
+    <div id="yourScore" class="modal">
+        <div class="yourScoreModal-content" id="yourScore-content_id">
+            <span class="close" id="spanCloseScore">&times;</span>
+            <h1 class="top5">NGƯỜI CHƠI DẪN ĐẦU BẢNG XẾP HẠNG</h1>
+        </div>
+    </div>
+    <div id="guidline" class="modal">
+        <div class="guidline-content">
+            <span class="close" id="spanCloseGuild">&times;</span>
+            <div class="box">
+                <p>
+                    Người chơi tham gia trò chơi bằng cách chọn các cặp hình giống nhau. Với mỗi cặp hình trùng khớp người
+                    chơi sẽ nhận được một lượng điểm tương ứng tùy theo màn chơi. Cố gắng hoàn thành trò chơi trong thời gian
+                    được quy định. Có thể cài đặt độ khó trò chơi ở lựa chọn "Cài đặt". Hoàn thành trò trơi bằng cách chiến thắng
+                    tất cả các màn chơi của trò chơi. <br /> <br />
+                    <b style="color:red;">Lưu ý:</b> Ở màn chơi có tổng số ô lẻ, người chơi có thể lật ra 1 ô đặc biệt, ô này có tác dụng tăng thời gian cho người chơi.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $("#settingID").click(function () {
+        var modal = document.getElementById("settingGame");
+        modal.style.display = "block";
+    })
+    $("#spanClose").click(function () {
+        var modal = document.getElementById("settingGame");
+        modal.style.display = "none";
+    })
+    $("#playSetting").click(function () {
+        $.ajax({
+                type: 'GET',
+            data:{
+                id: parseInt(document.getElementById("typeLV").value)
+            },
+            url: '@Url.Action("settingGame", "_game")',
+            success: function () {
+                window.location.href = '@Url.Action("menuGame", "_game")';
+            }
+        })
+    })
+    $("#achi_id").click(function () {
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("getListScore", "_playerScore")',
+            dataType: 'json',
+            success: function (getListScore) {
+                var checktop5 = false;
+                var playerID = parseInt('@Session["playerID"].ToString()');
+                var modal = document.getElementById("yourScore");
+                console.log(getListScore);
+                var result = JSON.parse(JSON.stringify(getListScore));
+                console.log(typeof (result));
+                var divHighScore = document.createElement("div");
+                divHighScore.className = "divHighScore";
+                var rank = document.createElement("h2");
+                rank.className = "rank"
+                rank.innerHTML = "Hạng";
+                var playerName = document.createElement("h2");
+                playerName.className = "playerName"
+                playerName.innerHTML = "Người chơi";
+                var playerScore = document.createElement("h2");
+                playerScore.className = "playerScore"
+                playerScore.innerHTML = "Điểm";
+                var br = document.createElement("br");
+                divHighScore.appendChild(rank);
+                divHighScore.appendChild(playerName);
+                divHighScore.appendChild(playerScore);
+                divHighScore.appendChild(br);
+                if (result != null)
+                {
+                    if (result.length <= 5) {
+                        for (var i = 0; i < result.length; i++) {
+                            if (result[i].userID == playerID)
+                                checktop5 = true;
+                            var rankID = document.createElement("label");
+                            rankID.className = "lblRank";
+                            rankID.innerHTML = "#" + `${i + 1}`;
+                            var name = document.createElement("label");
+                            name.className = "lblName";
+                            name.innerHTML = `${result[i].User.userName}`;
+                            var score = document.createElement("label");
+                            score.className = "lblScore";
+                            score.innerHTML = `${result[i].score}`;
+                            var br2 = document.createElement("br");
+                            divHighScore.appendChild(rankID);
+                            divHighScore.appendChild(name);
+                            divHighScore.appendChild(score);
+                            divHighScore.appendChild(br2);
+                        }
+                        document.getElementById("yourScore-content_id").appendChild(divHighScore);
+                    }
+                    else {
+
+                        for (var i = 0; i < 5; i++)
+                        {
+                            var rankID = document.createElement("label");
+                            rankID.className = "lblRank";
+                            rankID.innerHTML = "#" + `${i + 1}`;
+                            var name = document.createElement("label");
+                            name.className = "lblName";
+                            name.innerHTML = `${result[i].User.userName}`;
+                            var score = document.createElement("label");
+                            score.className = "lblScore";
+                            score.innerHTML = `${result[i].score}`;
+                            var br2 = document.createElement("br");
+                            divHighScore.appendChild(rankID);
+                            divHighScore.appendChild(name);
+                            divHighScore.appendChild(score);
+                            divHighScore.appendChild(br2);
+                        }
+                        if (checktop5 == false)
+                        {
+                            var rankID = document.createElement("label");
+                            rankID.className = "lblRank";
+                            rankID.innerHTML = "...";
+                            var name = document.createElement("label");
+                            name.className = "lblName";
+                            name.innerHTML = "...";
+                            var score = document.createElement("label");
+                            score.className = "lblScore";
+                            score.innerHTML = "...";
+                            var br2 = document.createElement("br");
+                            divHighScore.appendChild(rankID);
+                            divHighScore.appendChild(name);
+                            divHighScore.appendChild(score);
+                            divHighScore.appendChild(br2);
+                            document.getElementById("yourScore-content_id").appendChild(divHighScore);
+                        }
+
+                        for (var i = 0; i < result.length; i++) {
+                            if (result[i].userID == playerID && checktop5==false) {
+                                var rankID = document.createElement("label");
+                                rankID.className = "lblRank";
+                                rankID.innerHTML = "#" + `${i + 1}`;
+                                var name = document.createElement("label");
+                                name.className = "lblName";
+                                name.innerHTML = `${result[i].User.userName}`;
+                                var score = document.createElement("label");
+                                score.className = "lblScore";
+                                score.innerHTML = `${result[i].score}`;
+                                var br2 = document.createElement("br");
+                                divHighScore.appendChild(rankID);
+                                divHighScore.appendChild(name);
+                                divHighScore.appendChild(score);
+                                divHighScore.appendChild(br2);
+                                break;
+                            }
+                        }
+                    }
+                }
+                modal.style.display = "block";
+            }
+        })
+    })
+    $("#spanCloseScore").click(function () {
+        var modal = document.getElementById("yourScore");
+        modal.style.display = "none";
+    })
+    $("#guild_id").click(function () {
+        var modal = document.getElementById("guidline");
+        modal.style.display = "block";
+    })
+    $("#spanCloseGuild").click(function () {
+        var modal = document.getElementById("guidline");
+        modal.style.display = "none";
+    })
+</script>

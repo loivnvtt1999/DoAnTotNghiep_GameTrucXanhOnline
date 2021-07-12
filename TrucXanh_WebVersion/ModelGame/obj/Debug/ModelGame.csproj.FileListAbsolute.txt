@@ -1,0 +1,32 @@
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csprojAssemblyReference.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\ModelGame\bin\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\ModelGame\obj\Debug\ModelGame.pdb

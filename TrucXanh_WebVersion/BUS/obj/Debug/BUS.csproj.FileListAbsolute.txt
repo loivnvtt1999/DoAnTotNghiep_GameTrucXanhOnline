@@ -1,0 +1,112 @@
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\BUS.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\BUS.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\DAL.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\DAL.dll.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\ModelGame.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\obj\Debug\BUS.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\BUS\obj\Debug\BUS.pdb

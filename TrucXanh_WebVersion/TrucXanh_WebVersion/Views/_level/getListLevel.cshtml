@@ -1,0 +1,382 @@
+﻿@model IEnumerable<ModelGame.tblLevel>
+
+@{
+    ViewBag.Title = "getListLevel";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+        table {
+            border-radius: 24px;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            width: 100%;
+        }
+
+            table tr {
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+                margin-top: 5px;
+            }
+
+                table tr th {
+                    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+                    width: 200px;
+                    text-align: center;
+                    font-family: 'Bangers', cursive;
+                    font-size:1.5em;
+                }
+
+                table tr td {
+                    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+                    width: 200px;
+                    text-align: center;
+                    font-family: 'Bangers', cursive;
+                    font-size: 3em;
+                    color: #241b5f;
+
+                }
+
+        .add {
+            width: 100%;
+            height: 100px;
+        }
+
+            .add a {
+                height: 70px;
+                width: 300px;
+                text-decoration: none;
+                position: absolute;
+                text-align: center;
+                font-family: 'Bangers', cursive;
+                color: #241b5f;
+                font-size: 2em;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+                .add a:hover {
+                    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+                }
+
+        .removeButton {
+            border: 0;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 40px;
+            outline: none;
+            color: black;
+            transition: 0.25s;
+            background: #4a8b2c;
+            cursor: pointer;
+        }
+        .updateButton {
+            border: 0;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 40px;
+            outline: none;
+            color: black;
+            transition: 0.25s;
+            background: #b5d73d;
+            cursor: pointer;
+        }
+    </style>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div class="add">
+        <a id="btnAddLevel"><img src="~/Image/plus.jpg" style="height:50px; width:50px;" />Thêm màn mới</a>
+    </div>
+    <table>
+        <tr>
+            <th>Tên màn</th>
+            <th>Mức điểm</th>
+            <th>Thời gian</th>
+            <th>Tổng điểm</th>
+            <th>Sửa màn</th>
+            <th>Xóa màn</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.levelName
+                </td>
+                <td>
+                    @item.rangeScore
+                </td>
+                <td>
+                    @item.time
+                </td>
+                <td>
+                    @item.totalScore
+                </td>
+                <td>
+                    <button class="updateButton" onclick="loadModalUpdateLevel('@item.levelID', '@item.levelName', '@item.rangeScore', '@item.time');"><img src="~/Image/updateicon.jpg" style="height:50px; width:50px;" /></button>
+                </td>
+                <td>
+                    <button class="removeButton" onclick="loadModalDeleteLevel('@item.levelID');"><img src="~/Image/removeicon.jpg" style="height:50px; width:50px;" /></button>
+                </td>
+            </tr>
+        }
+    </table>
+    <div id="add-level" class="modal">
+        <div class="addLevel-content" id="addLevel-content-ID">
+            <span class="close" id="spanCloseAdd">&times;</span>
+            <form>
+                <input type="number" id="col" placeholder="Nhập vào số lượng cột" />
+                <input type="number" id="row" placeholder="Nhập vào số lượng hàng" />
+                <input type="number" id="range" placeholder="Nhập vào mức điểm" />
+                <input type="number" id="time" placeholder="Nhập vào thời gian" />
+                <input type="button" id="btnAdd" value="Lưu" />
+            </form>
+        </div>
+    </div>
+    <div id="update-level" class="modal">
+        <div class="updateLevel-content" id="updateLevel-content-ID">
+            <span class="close" id="spanCloseUpdate">&times;</span>
+            <form>
+                <label>Cột</label>
+                <input type="number" id="colUpdate" placeholder="Nhập vào số lượng cột" />
+                <label>Hàng</label>
+                <input type="number" id="rowUpdate" placeholder="Nhập vào số lượng hàng" />
+                <label>Mức điểm</label>
+                <input type="number" id="rangeUpdate" placeholder="Nhập vào mức điểm" />
+                <label>Thời gian</label>
+                <input type="number" id="timeUpdate" placeholder="Nhập vào thời gian" />
+                <input type="button" id="btnUpdate" value="Lưu" />
+            </form>
+        </div>
+    </div>
+    <div id="remove-level" class="modal">
+        <div class="removeLevel-content" id="removeLevel-content-ID">
+            <span class="close" id="spanCloseRemove">&times;</span>
+            <h2>Bạn có muốn xóa màn chơi này không ?</h2>
+            <input type="button" id="removeLevel" value="Xóa" />
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function validateCol() {
+        var col = document.getElementById("col").value;
+        if (col == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateRow() {
+        var row = document.getElementById("row").value;
+        if (row == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateRange() {
+        var range = document.getElementById("range").value;
+        if (range == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateTime() {
+        var time = document.getElementById("time").value;
+        if (time == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateColUpdate() {
+        var col = document.getElementById("colUpdate").value;
+        if (col == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateRowUpdate() {
+        var row = document.getElementById("rowUpdate").value;
+        if (row == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateRangeUpdate() {
+        var range = document.getElementById("rangeUpdate").value;
+        if (range == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function validateTimeUpdate() {
+        var time = document.getElementById("timeUpdate").value;
+        if (time == "") {
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    function loadModalDeleteLevel(id) {
+        console.log(id);
+        var modalDelete = document.getElementById("remove-level");
+        modalDelete.style.display = "block";
+        $("#removeLevel").click(function () {
+            $.ajax({
+                type: 'GET',
+                data: {
+                    id: parseInt(id)
+                },
+                url: '@Url.Action("deleteLevel", "_level")',
+                dataType: 'json',
+                success: function (s) {
+                    var result = JSON.parse(JSON.stringify(s));
+                    if (result.length == 0) {
+                        alert("Xóa thành công");
+                        location.reload();
+                    }
+                    else {
+                        alert(s);
+                        window.location.href = '@Url.Action("getListLevel", "_level")';
+                    }
+                }
+            })
+        })
+    }
+    function loadModalUpdateLevel(id, name, range, time) {
+        console.log(id);
+        console.log(name);
+        var modalUpdate = document.getElementById("update-level");
+        modalUpdate.style.display = "block";
+        var col = parseInt(name.substring(0, 1));
+        var row = parseInt(name.substring(name.length - 1));
+        var colUpdate = document.getElementById("colUpdate");
+        colUpdate.value = col;
+        var rowUpdate = document.getElementById("rowUpdate");
+        rowUpdate.value = row;
+        var rangeUpdate = document.getElementById("rangeUpdate");
+        rangeUpdate.value = range;
+        var timeUpdate = document.getElementById("timeUpdate");
+        timeUpdate.value = time;
+        $("#btnUpdate").click(function () {
+            if (validateColUpdate() == false) {
+                alert("Vui lòng nhập vào số cột");
+                return;
+            }
+            if (validateRowUpdate() == false) {
+                alert("Vui lòng nhập vào số hàng");
+                return;
+            }
+            if (validateRangeUpdate() == false) {
+                alert("Vui lòng nhập vào mức điểm");
+                return;
+            }
+            if (validateTimeUpdate() == false) {
+                alert("Vui lòng nhập vào thời gian");
+                return;
+            }
+            $.ajax({
+                type: 'GET',
+                data: {
+                    id: parseInt(id),
+                    col: parseInt(document.getElementById("colUpdate").value),
+                    row: parseInt(document.getElementById("rowUpdate").value),
+                    range: parseInt(document.getElementById("rangeUpdate").value),
+                    time: parseInt(document.getElementById("timeUpdate").value),
+                },
+                url: '@Url.Action("updateLevel", "_level")',
+                dataType: 'json',
+                success: function (s) {
+                    var result = JSON.parse(JSON.stringify(s));
+                    if (result.length == 0) {
+                        alert("Sửa thành công");
+                        location.reload();
+                    }
+                    else {
+                        alert(s);
+                        window.location.href = '@Url.Action("getListLevel", "_level")';
+                    }
+                }
+            })
+        })
+    }
+    $("#btnAddLevel").click(function () {
+        var modal = document.getElementById("add-level");
+        modal.style.display = "block";
+    })
+    $("#spanCloseAdd").click(function () {
+        var modal = document.getElementById("add-level");
+        modal.style.display = "none";
+    })
+    $("#spanCloseUpdate").click(function () {
+        var modal = document.getElementById("update-level");
+        modal.style.display = "none";
+    })
+    $("#spanCloseRemove").click(function () {
+        var modal = document.getElementById("remove-level");
+        modal.style.display = "none";
+    })
+    $("#btnAdd").click(function () {
+        if (validateCol() == false) {
+            alert("Vui lòng nhập vào số cột");
+            return;
+        }
+        if (validateRow() == false) {
+            alert("Vui lòng nhập vào số hàng");
+            return;
+        }
+        if (validateRange() == false) {
+            alert("Vui lòng nhập vào mức điểm");
+            return;
+        }
+        if (validateTime() == false) {
+            alert("Vui lòng nhập vào thời gian");
+            return;
+        }
+        $.ajax({
+            type: 'GET',
+            data: {
+                col: parseInt(document.getElementById("col").value),
+                row: parseInt(document.getElementById("row").value),
+                range: parseInt(document.getElementById("range").value),
+                time: parseInt(document.getElementById("time").value),
+            },
+            url: '@Url.Action("insertLevel", "_level")',
+            dataType: 'json',
+            success: function (s) {
+                var result = JSON.parse(JSON.stringify(s));
+                if (result.length > 0) {
+                    alert(s);
+                }
+                else {
+                    alert("Thêm thành công");
+                    location.reload();
+                }
+            }
+        })
+    })
+</script>

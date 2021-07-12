@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        @@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+        body {
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+
+        .top-title {
+            border-radius: 24px;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), #0d4256);
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        }
+
+            .top-title a {
+                text-decoration: none;
+                position: absolute;
+                top: 30px;
+                text-align: center;
+                font-family: 'Bangers', cursive;
+                color: #241b5f;
+                font-size: 2em;
+                text-transform: uppercase;
+                transform: rotate(-10deg);
+                text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%), 3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 50%, 34%), 5px 5px hsl(50, 50%, 33%), 6px 6px hsl(50, 50%, 32%), 7px 7px hsl(50, 50%, 31%), 8px 8px hsl(50, 50%, 30%), 9px 9px hsl(50, 50%, 29%), 10px 10px hsl(50, 50%, 28%), 10px 10px 30px rgba(0,0,0,.7);
+            }
+
+        .mainbox {
+            width: 100%;
+            height: 100%;
+            border: 1px solid;
+        }
+
+        #menu {
+            margin: 20px auto;
+        }
+
+        #mainContent {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .slidebar_menu {
+            position: fixed;
+            height: 100vh;
+            width: 280px;
+            background: rgba(255,255,255,0.1);
+            box-shadow: 0 0 6px rgba(255,255,255,0.5);
+        }
+
+            .slidebar_menu .menu_function {
+                position: absolute;
+                width: 100%;
+            }
+
+                .slidebar_menu .menu_function li {
+                    padding: 14px 20px;
+                    transition: all 0.3s linear;
+                    list-style-type: none;
+                }
+
+                    .slidebar_menu .menu_function li a {
+                        color: #008080;
+                        font-size: 25px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-family: 'Bangers', cursive;
+                    }
+
+                    .slidebar_menu .menu_function li .admin {
+                        color: #008080;
+                        font-size: 25px;
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-family: 'Bangers', cursive;
+                    }
+
+                    .slidebar_menu .menu_function li:hover {
+                        border-left: 1px solid #fff;
+                        box-shadow: 0 0 4px rgba(255,255,255,0.5);
+                    }
+
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .modalImage-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 200px;
+            width: 600px;
+            margin-left: 370px;
+            height: 350px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .modalImage-content input[type="file"] {
+                border: 0;
+                background: none;
+                display: block;
+                margin: 40px auto;
+                text-align: center;
+                border: 2px solid #3498db;
+                padding: 14px 10px;
+                background: aquamarine;
+                width: 200px;
+                outline: none;
+                color: black;
+                border-radius: 24px;
+                transition: 0.25s;
+                font-family: 'Bangers', cursive;
+            }
+
+                .modalImage-content input[type="file"]:focus {
+                    width: 280px;
+                    border-color: #2ecc71;
+                }
+
+            .modalImage-content input[type="button"] {
+                border: 0;
+                display: block;
+                margin-left: 30px;
+                text-align: center;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                float: left;
+                font-family: 'Bangers', cursive;
+                margin-left: 42%;
+            }
+
+                .modalImage-content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+            .modalImage-content .close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .modalImage-content .close:hover,
+                .modalImage-content .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        .removeImage-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 200px;
+            width: 600px;
+            margin-left: 370px;
+            height: 350px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .removeImage-content input[type="button"] {
+                border: 0;
+                display: block;
+                margin-left: 30px;
+                text-align: center;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                font-family: 'Bangers', cursive;
+                margin-left: 40%;
+                margin-top: 50px;
+            }
+
+                .removeImage-content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+            .removeImage-content .close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .removeImage-content .close:hover,
+                .removeImage-content .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        .addLevel-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 100px;
+            width: 600px;
+            margin-left: 370px;
+            height: 500px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .addLevel-content form {
+                width: 300px;
+                position: fixed;
+                border-radius: 24px;
+                margin-top: 15%;
+                margin-left: 400px;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                overflow: hidden;
+                height: auto;
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            }
+
+            .addLevel-content input[type="number"] {
+                border: 0;
+                background: none;
+                display: block;
+                margin: 30px auto;
+                text-align: center;
+                border: 2px solid #3498db;
+                padding: 14px 10px;
+                background: aquamarine;
+                width: 250px;
+                outline: none;
+                color: black;
+                border-radius: 24px;
+                font-size: 20px;
+                font-family: 'Bangers', cursive;
+            }
+
+                .addLevel-content input[type="number"]:focus {
+                    width: 280px;
+                    border-color: #2ecc71;
+                }
+
+            .addLevel-content input[type="button"] {
+                border: 0;
+                display: block;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                font-family: 'Bangers', cursive;
+                margin-left: 35%;
+                margin-top: 40px;
+            }
+
+                .addLevel-content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+            .addLevel-content .close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .addLevel-content .close:hover,
+                .addLevel-content .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        .updateLevel-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 100px;
+            width: 600px;
+            margin-left: 370px;
+            height: 520px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .updateLevel-content form {
+                width: 300px;
+                position: fixed;
+                border-radius: 24px;
+                margin-top: 16%;
+                margin-left: 400px;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                overflow: hidden;
+                height: auto;
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            }
+
+            .updateLevel-content input[type="number"] {
+                border: 0;
+                background: none;
+                display: block;
+                margin: 5px auto;
+                text-align: center;
+                border: 2px solid #3498db;
+                padding: 14px 10px;
+                background: aquamarine;
+                width: 250px;
+                outline: none;
+                color: black;
+                border-radius: 24px;
+                font-size: 20px;
+                font-family: 'Bangers', cursive;
+            }
+
+            .updateLevel-content label {
+                color: #241b5f;
+                font-size: 20px;
+                font-family: 'Bangers', cursive;
+            }
+
+            .updateLevel-content input[type="number"]:focus {
+                width: 280px;
+                border-color: #2ecc71;
+            }
+
+            .updateLevel-content input[type="button"] {
+                border: 0;
+                display: block;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                font-family: 'Bangers', cursive;
+                margin-left: 35%;
+                margin-top: 40px;
+            }
+
+                .updateLevel-content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+            .updateLevel-content .close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .updateLevel-content .close:hover,
+                .updateLevel-content .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+        .removeLevel-content {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            margin-top: 100px;
+            width: 400px;
+            margin-left: 370px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .removeLevel-content h2 {
+                font-family: 'Bangers', cursive;
+                color: hsl(50, 50%, 50%);
+                position: relative;
+                z-index: 2;
+                font-size: 3em;
+                margin-left: 0%;
+                letter-spacing: 0px;
+                text-transform: uppercase;
+                text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%), 3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 50%, 34%), 5px 5px hsl(50, 50%, 33%), 6px 6px hsl(50, 50%, 32%), 7px 7px hsl(50, 50%, 31%), 8px 8px hsl(50, 50%, 30%), 9px 9px hsl(50, 50%, 29%), 10px 10px hsl(50, 50%, 28%), 10px 10px 30px rgba(0,0,0,.7);
+            }
+
+            .removeLevel-content input[type="button"] {
+                border: 0;
+                display: block;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                font-family: 'Bangers', cursive;
+                margin-left: 40%;
+                margin-top: 40px;
+            }
+
+            .removeLevel-content .close {
+                color: red;
+                float: right;
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+                .removeLevel-content .close:hover,
+                .removeLevel-content .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+    </style>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div class="top-title">
+        <a>Trò chơi trúc xanh</a>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-3" id="menu">
+            <div class="slidebar_menu">
+                <div class="menu_function">
+                    <ul>
+                        <li>
+                            <div class="admin">
+                                <img src="~/Image/manger.jpg" style="height:50px; width:50px;" />
+                                Xin chào: @Session["admin"]
+                            </div>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("getListImage","_image")">
+                                Quản lý hình ảnh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("getListLevel","_level")">
+                                Quản lý màn chơi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Logout","_admin")">
+                                Đăng xuất
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8" id="mainContent">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $("#btnAddImage").click(function () {
+        var modal = document.getElementById("add-image")
+        modal.style.display = "block";
+    })
+    $("#spanClose").click(function () {
+        console.log("click");
+        var modal = document.getElementById("add-image")
+        modal.style.display = "none";
+    })
+    $("#image").change(function () {
+        var input = document.getElementById("image")
+        if (input.files && input.files[0]) {
+            var filerdr = new FileReader();
+            filerdr.onload = function (e) {
+                $('#imgShow').attr('src', e.target.result);
+            }
+            filerdr.readAsDataURL(input.files[0]);
+        }
+    })
+    $("#spanCloseRemove").click(function () {
+        console.log("click");
+        var modal = document.getElementById("remove-image")
+        modal.style.display = "none";
+    })
+</script>

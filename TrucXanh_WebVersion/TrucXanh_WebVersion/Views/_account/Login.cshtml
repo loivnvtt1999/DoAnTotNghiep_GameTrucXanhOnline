@@ -1,0 +1,576 @@
+﻿@model ModelGame.tblAccount
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .box {
+            width: 300px;
+            padding: 40px;
+            position: absolute;
+            border-radius: 24px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            overflow: hidden;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), #0d4256);
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        }
+
+        .title {
+            width: 400px;
+            height: 50px;
+            padding: 40px;
+            margin-left: 530px;
+            position: absolute;
+            text-align: center;
+            font-family: 'Bangers', cursive;
+            color: hsl(50, 50%, 50%);
+            font-size: 2em;
+            top: 0px;
+        }
+
+            .title h3 {
+                margin-top: 5px;
+            }
+
+        .box h1 {
+            text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+            color: black;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: 'Bangers', cursive;
+        }
+
+        .box input[type="text"], .box input[type="password"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #3498db;
+            padding: 14px 10px;
+            background: aquamarine;
+            width: 200px;
+            outline: none;
+            color: black;
+            border-radius: 24px;
+            transition: 0.25s;
+            font-family: 'Bangers', cursive;
+        }
+
+            .box input[type="text"]:focus, .box input[type="password"]:focus {
+                width: 280px;
+                border-color: #2ecc71;
+            }
+
+        .box input[type="submit"] {
+            border: 0;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 40px;
+            outline: none;
+            color: black;
+            font-weight: bold;
+            border-radius: 24px;
+            transition: 0.25s;
+            background: #2ecc71;
+            cursor: pointer;
+            float: left;
+            font-family: 'Bangers', cursive;
+        }
+
+        .box input[type="button"] {
+            border: 0;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 40px;
+            outline: none;
+            color: black;
+            font-weight: bold;
+            border-radius: 24px;
+            transition: 0.25s;
+            background: #4a8b2c;
+            cursor: pointer;
+            float: left;
+            margin-left: 25px;
+            font-family: 'Bangers', cursive;
+        }
+
+        .box input[type="submit"]:hover {
+            background: #D2DA50;
+        }
+
+        .box input[type="button"]:hover {
+            background: #ff6a00;
+        }
+
+        .nonAccount_a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-family: Arial;
+            text-transform: uppercase;
+            font-family: 'Bangers', cursive;
+        }
+        nonAccount_a:hover{
+            background:#299c17;
+        }
+        .dk {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-family: Arial;
+            text-transform: uppercase;
+        }
+
+        .message {
+            margin-top: 70px;
+            text-align: center;
+            font-family: 'Bangers', cursive;
+            text-decoration: none;
+            list-style-type: none;
+            color: red;
+        }
+
+            .message ul li {
+                list-style-type: none;
+            }
+
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .modalNonAccount_Content {
+            background-image: url('../../Image/backgroundDangKy.jpg');
+            margin-top:200px;
+            width: 250px;
+            margin-left:370px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+            .modalNonAccount_Content input[type="text"] {
+                border: 0;
+                background: none;
+                display: block;
+                margin: 40px auto;
+                text-align: center;
+                border: 2px solid #3498db;
+                padding: 14px 10px;
+                background: aquamarine;
+                width: 200px;
+                outline: none;
+                color: black;
+                border-radius: 24px;
+                transition: 0.25s;
+                font-family: 'Bangers', cursive;
+            }
+                .modalNonAccount_Content input[type="text"]:focus {
+                    width: 280px;
+                    border-color: #2ecc71;
+                }
+            .modalNonAccount_Content input[type="button"] {
+                border: 0;
+                display: block;
+                margin-left: 30px;
+                text-align: center;
+                border: 2px solid #2ecc71;
+                padding: 14px 40px;
+                outline: none;
+                color: black;
+                font-weight: bold;
+                border-radius: 24px;
+                transition: 0.25s;
+                background: #2ecc71;
+                cursor: pointer;
+                float: left;
+                font-family: 'Bangers', cursive;
+                margin-left:42%;
+            }
+                .modalNonAccount_Content input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+        /* Modal Content/Box */
+        .modalDangKy-content {
+            background-image: url('../../Image/backgroundDangKy.jpg');
+            margin: auto;
+            width: 150px;
+            height: 100%;
+            padding: 20px;
+            border-radius: 24px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+            .modalDangKy-content .formDangKy {
+                width: 300px;
+                position: fixed;
+                border-radius: 24px;
+                margin-top: 20%;
+                margin-left: 400px;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                overflow: hidden;
+                height: auto;
+                background: rgba(255,255,255,0.1);
+                box-shadow: 0 0 6px rgba(255,255,255,0.5);
+            }
+                .modalDangKy-content .formDangKy span {
+                    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+                    font-family: 'Bangers', cursive;
+                    color: red;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+                .modalDangKy-content .formDangKy h1 {
+                    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+                    color: black;
+                    font-weight: 500;
+                    margin-top:10px;
+                    font-family: 'Bangers', cursive;
+                }
+
+                .modalDangKy-content .formDangKy input[type="text"], .formDangKy input[type="password"], .formDangKy input[type="tel"], .formDangKy input[type="email"] {
+                    border: 0;
+                    background: none;
+                    display: block;
+                    margin: 20px auto;
+                    text-align: center;
+                    border: 2px solid #3498db;
+                    padding: 14px 10px;
+                    background: aquamarine;
+                    width: 200px;
+                    outline: none;
+                    color: black;
+                    border-radius: 24px;
+                    transition: 0.25s;
+                    font-family: 'Bangers', cursive;
+                }
+
+                    .modalDangKy-content .formDangKy input[type="text"]:focus, .formDangKy input[type="password"]:focus, .formDangKy input[type="tel"]:focus, .formDangKy input[type="email"]:focus {
+                        width: 280px;
+                        border-color: #2ecc71;
+                    }
+
+                .modalDangKy-content .formDangKy input[type="button"] {
+                    border: 0;
+                    display: block;
+                    margin-left: 30px;
+                    text-align: center;
+                    border: 2px solid #2ecc71;
+                    padding: 14px 40px;
+                    outline: none;
+                    color: black;
+                    font-weight: bold;
+                    border-radius: 24px;
+                    transition: 0.25s;
+                    background: #2ecc71;
+                    cursor: pointer;
+                    float: left;
+                    font-family: 'Bangers', cursive;
+                }
+
+                .modalDangKy-content .formDangKy input[type="reset"] {
+                    border: 0;
+                    display: block;
+                    margin: 20px auto;
+                    text-align: center;
+                    border: 2px solid #2ecc71;
+                    padding: 14px 40px;
+                    outline: none;
+                    color: black;
+                    font-weight: bold;
+                    border-radius: 24px;
+                    transition: 0.25s;
+                    background: #4a8b2c;
+                    cursor: pointer;
+                    float: left;
+                    margin-top: 3px;
+                    margin-left: 10px;
+                    font-family: 'Bangers', cursive;
+                }
+
+                .modalDangKy-content .formDangKy input[type="button"]:hover {
+                    background: #D2DA50;
+                }
+
+                .modalDangKy-content .formDangKy input[type="reset"]:hover {
+                    background: #d88e0c;
+                }
+        /* The Close Button */
+        .close {
+            color: red;
+            float: right;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+    </style>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h3 contenteditable="true">CHÀO MỪNG BẠN ĐẾN VỚI TRÒ CHƠI TRÚC XANH</h3>
+    </div>
+    <form class="box" action="" method="post">
+        <h1>Đăng nhập</h1>
+        @Html.TextBoxFor(model => model.nameAccount, new { placeholder = "Tên đăng nhập", type = "text" })
+        @Html.ValidationMessageFor(model => model.nameAccount, "", htmlAttributes: new { @class = "text-danger" })
+        @Html.TextBoxFor(model => model.password, new { placeholder = "Mật khẩu", type = "password" })
+        @Html.ValidationMessageFor(model => model.password, "", htmlAttributes: new { @class = "text-danger" })<br />
+        <a class="nonAccount_a" id="nonAccount">Sử dụng không cần tài khoản</a><br />
+        <input type="submit" name="" value="Đăng nhập" />
+        <input type="button" value="Đăng ký" id="btnDangKy" /><br />
+        <div class="message">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger", })
+        </div>
+    </form>
+    <div id="modalDangKy" class="modal">
+        <!-- Modal content -->
+        <div class="modalDangKy-content">
+            <span class="close" id="spanClose">&times;</span>
+            <form class="formDangKy">
+                <h1>Đăng ký</h1>
+                <input type="text" id="userName" placeholder="Nhập vào họ và tên" />
+                <span id="checkName"></span>
+                <input type="email" id="userEmail" placeholder="Nhập vào email" />
+                <span id="checkEmail"></span>
+                <input type="tel" id="userPhone" placeholder="Nhập vào số điện thoại" />
+                <span id="checkPhone"></span>
+                <input type="text" id="accountName" placeholder="Nhập vào tên tài khoản" />
+                <span id="checkAccount"></span>
+                <input type="password" id="accountPassword" placeholder="Nhập vào mật khẩu" />
+                <span id="checkPassword"></span>
+                <input type="password" id="reaccountPassword" placeholder="Nhập lại mật khẩu" />
+                <span id="checkRepassword"></span><br/><br />
+                <input type="button" id="submitButton" value="Đăng ký" />
+                <input type="reset" value="Hủy" />
+            </form>
+        </div>
+    </div>
+    <div id="non_account" class="modal">
+        <div class="modalNonAccount_Content">
+            <span class="close" id="spanClose_nonAccount">&times;</span>
+            <input type="text" id="playerName" placeholder="Nhập vào tên của bạn" />
+            <span id="checkPlayer"></span>
+            <input type="button" id="playNonAccount" value="Chơi" />
+        </div>   
+    </div>
+</body>
+</html>
+<script>
+    function validateUserName() {
+        var userName = document.getElementById("userName").value;
+        var checkName = document.getElementById("checkName");
+        if (userName == "") {
+            checkName.innerHTML = "Vui lòng nhập vào họ tên của bạn";
+            return false;
+        }
+        else {
+            checkName.innerHTML = "";
+            return true;
+        }
+    }
+    function validateUserEmail() {
+        var email = document.getElementById("userEmail").value;
+        var checkEmail = document.getElementById("checkEmail");
+        var expr = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (!expr.test(email)) {
+            checkEmail.innerHTML = "Vui lòng nhập đúng email";
+            return false;
+        }
+        else {
+            checkEmail.innerHTML = "";
+            return true;
+        }
+    }
+    function validateUserPhone() {
+        var phone = document.getElementById("userPhone").value;
+        var checkPhone = document.getElementById("checkPhone");
+        var expr = /(84|0[3|5|7|8|9])+([0-9]{8})$/;
+        if (!expr.test(phone)) {
+            checkPhone.innerHTML = "Vui lòng nhập đúng số điện thoại";
+            return false;
+        }
+        else {
+            checkPhone.innerHTML = "";
+            return true;
+        }
+    }
+    function validateAccountName() {
+        var accountName = document.getElementById("accountName").value;
+        var checkAccount = document.getElementById("checkAccount");
+        if (accountName == "") {
+            checkAccount.innerHTML = "Vui lòng nhập vào tên tài khoản";
+            return false;
+        }
+        else {
+            checkAccount.innerHTML = "";
+            return true;
+        }
+    }
+    function validatePassword() {
+        var accountPassword = document.getElementById("accountPassword").value;
+        var checkPass = document.getElementById("checkPassword");
+        var expr = /^(?=.*[0-9])(?=.*[!@@#$%^&*])[a-zA-Z0-9!@@#$%^&*]{6,16}$/;
+        if (!expr.test(accountPassword)) {
+            checkPass.innerHTML = "Mật khẩu từ 6-16 kí tự và có chứa một số và một kí tự đặc biệt";
+            return false;
+        }
+        else {
+            checkPass.innerHTML = "";
+            return true;
+        }
+    }
+    function validateRepassword() {
+        var repass = document.getElementById("reaccountPassword").value;
+        var checkrepass = document.getElementById("checkRepassword");
+        var password = document.getElementById("accountPassword").value;
+        if (repass != password) {
+            checkrepass.innerHTML = "Mật khẩu chưa trùng khớp";
+            return false;
+        }
+        else {
+            checkrepass.innerHTML = "";
+            return true;
+        }
+    }
+    function validatePlayerNoAccount() {
+        var noAccountInput = document.getElementById("playerName").value;
+        if (noAccountInput == "") {
+            alert("Vui lòng nhập tên để chơi");
+            return false;
+        }
+        return true;
+    }
+    $("#userName").focusout(function () {
+        validateUserName();
+    })
+    $("#userEUrlail").focusout(function () {
+        validateUserEmail();
+    })
+    $("#userPhone").focusout(function () {
+        validateUserPhone();
+    })
+    $("#accountName").focusout(function () {
+        validateAccountName();
+    })
+    $("#accountPassword").focusout(function () {
+        validatePassword();
+    })
+    $("#reaccountPassword").focusout(function () {
+        validateRepassword();
+    })
+    $("#btnDangKy").click(function () {
+        console.log("click");
+        var modalDangKy = document.getElementById("modalDangKy");
+        modalDangKy.style.display = "block";
+    })
+    $("#nonAccount").click(function () {
+        var modalNonAccount = document.getElementById("non_account");
+        modalNonAccount.style.display = "block";
+    })
+    $("#spanClose").click(function () {
+        var modalDangKy = document.getElementById("modalDangKy");
+        modalDangKy.style.display = "none";
+    })
+    $("#spanClose_nonAccount").click(function () {
+        var modalNonAccount = document.getElementById("non_account");
+        modalNonAccount.style.display = "none";
+    })
+    $("#submitButton").click(function () {
+        console.log("submit");
+        var checkName, checkEmail, checkPhone, checkAccount, checkPass, checkRepass;
+        checkName = validateUserName();
+        checkEmail = validateUserEmail();
+        checkPhone = validateUserPhone();
+        checkAccount = validateAccountName();
+        checkPass = validatePassword();
+        checkRepass = validateRepassword();
+        if (checkName == true && checkEmail == true && checkPhone == true && checkAccount == true && checkPass == true && checkRepass == true) {
+            $.ajax({
+                type: 'GET',
+                data: {
+                    userName: document.getElementById("userName").value,
+                    email: document.getElementById("userEmail").value,
+                    phone: document.getElementById("userPhone").value,
+                    nameAccount: document.getElementById("accountName").value,
+                    password: document.getElementById("accountPassword").value,
+                },
+                url: '@Url.Action("insertUser", "_user")',
+                success: function (s) {
+                    var result = JSON.parse(JSON.stringify(s));
+                    console.log(result);
+                    if (result.length > 0) {
+                        alert(s);
+                    }
+                    else {
+                        window.location.href = '@Url.Action("menuGame", "_game")';
+                    }
+                }
+            })
+        }
+        else {
+            console.log("false");
+        }
+    })
+    $("#playNonAccount").click(function () {
+        var check = validatePlayerNoAccount();
+        if (check) {
+            $.ajax({
+                type: 'GET',
+                data: {
+                    userName: document.getElementById("playerName").value
+                },
+                url: '@Url.Action("nonAccount", "_account")',
+                success: function () {
+                    window.location.href = '@Url.Action("menuGame", "_game")';
+                }
+            })
+        }
+    })
+</script>

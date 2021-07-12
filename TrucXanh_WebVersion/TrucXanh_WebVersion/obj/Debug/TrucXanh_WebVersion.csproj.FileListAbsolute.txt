@@ -1,0 +1,444 @@
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Desktop\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+C:\Users\ASUS\OneDrive\Desktop\DoAn2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_Web_Version\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+D:\ASP.Net MVC\Project\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+D:\DoAnTotNghiep2021_Complete\TroChoiTrucXanh_Online_2021\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\TrucXanh_WebVersion.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.exe.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csc.rsp
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.exe
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\csi.rsp
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.AppContext.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Collections.Immutable.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\System.Reflection.Metadata.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.exe.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\vbc.rsp
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\roslyn\VBCSCompiler.exe.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.bootstrap.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\AspNet.ScriptManager.jQuery.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.ScriptManager.WebForms.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.Web.Infrastructure.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\WebGrease.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\BUS.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\DAL.dll.config
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\ModelGame.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\EntityFramework.SqlServer.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Optimization.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Newtonsoft.Json.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Antlr3.Runtime.pdb
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Razor.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Deployment.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Webpages.Razor.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Helpers.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\System.Web.Mvc.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csprojAssemblyReference.cache
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CoreCompileInputs.cache
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.csproj.CopyComplete
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.dll
+D:\KLTN_Nhom53_DeTaiXayDungGameTrucXanh\MaNguonVaCachCaiDat\NenTangOnline\TrucXanh_WebVersion\TrucXanh_WebVersion\obj\Debug\TrucXanh_WebVersion.pdb

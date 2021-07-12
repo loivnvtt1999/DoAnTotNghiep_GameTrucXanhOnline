@@ -1,0 +1,690 @@
+﻿
+@{
+    ViewBag.Title = "playGame";
+    Layout = "~/Views/Shared/_LayoutGame.cshtml";
+}
+<script type="text/javascript">
+    var firstButtonName, secondButtonName;
+    var arrayImageForButton = [];
+    var arrayButton = [];
+    var arrayImageDatabase;
+    var numMatch, numWin;
+    let checkWinGame = false;
+    var startingMinutes;
+    var startingSeconds;
+    let time;
+    var countDownEl;
+    var countScoreEl;
+    var countTimeGame;
+    var table;
+    var nameLevel;
+    var idLevel;
+    var row;
+    var col;
+    var scoreRange;
+    var countScore;
+    var showScoreEl;
+    var downButton;
+    var speedcountTime;
+    function startGame(name, id, timeGame, scoreInLevel) {
+        scoreRange = parseInt(scoreInLevel);
+        startingMinutes = 0;
+        startingSeconds = timeGame;
+        time = startingMinutes * 60 + startingSeconds;
+        @*console.log("Session" +@Session["countTime"].ToString());*@
+        if (@Session["countTime"]!= null) {
+            speedcountTime = parseInt(@Session["countTime"].ToString());
+        }
+        else {
+            speedcountTime = 1000;
+        }
+        if (@Session["downButton"].ToString()!= null) {
+            downButton = parseInt(@Session["downButton"].ToString());
+        }
+        else {
+            downButton = 500;
+        }
+        console.log("speed:" + speedcountTime.toString());
+        console.log("down:" + downButton.toString());
+        countDownEl = document.getElementById("countdown");
+        countDownEl.innerHTML = "00:00";
+        countScoreEl = document.getElementById("score");
+        showScoreEl = document.getElementById("id_showScore");
+        countScore = parseInt(countScoreEl.value);
+        arrayImageDatabase = @Html.Raw(Json.Encode(@Session["listImage"]));
+        table = document.createElement('TABLE');
+        nameLevel = name;
+        idLevel = id;
+        console.log("IDDDDD: " +idLevel.toString());
+        console.log("Name: "+ nameLevel.toString());
+        col = parseInt(nameLevel.substring(0, 1));
+        row = parseInt(nameLevel.substring(nameLevel.length - 1));
+        countTimeGame = setInterval(countTime, speedcountTime);
+        table.setAttribute('class', 'mainTable');
+            for (var i = 0; i < row; i++) {
+                var tr = document.createElement('TR');
+                tr.style.width = "700px";
+                table.appendChild(tr);
+                for (var j = 0; j < col; j++) {
+                    var td = document.createElement('TD');
+                    var button = document.createElement('button');
+                    button.style.width = "100px";
+                    button.style.height = "100px";
+                    button.setAttribute('id', 'btn' + (i + 1).toString() + (j + 1).toString());
+                    arrayButton.push(button);
+                    td.appendChild(button);
+                    tr.appendChild(td);
+                }
+            }
+            document.getElementById("id_mainGame").appendChild(table);
+            addImageForButton();
+            for (var t = 0; t < arrayImageForButton.length; t++) {
+                console.log(arrayImageForButton[t]);
+            }
+            setValueForButton();
+            playGame();
+            console.log("time" + time.toString());
+            setTimeout(function () {
+                if (time == 0) {
+                    clearInterval(countTimeGame);
+                    if (checkWinGame == false) {
+                        var checkBest = false;
+                        $.ajax({
+                            type: 'GET',
+                            data: {
+                                userID: parseInt('@Session["playerID"].ToString()'),
+                                score: parseInt(countScoreEl.value),
+                                levelIDLose: parseInt(idLevel)
+                            },
+                            url: '@Url.Action("endGame", "_playerScore")',
+                            dataType: 'json',
+                            success: function (lstTop5) {
+                                var modal = document.getElementById("loseModal");
+                                console.log(lstTop5);
+                                var result = JSON.parse(JSON.stringify(lstTop5));
+                                console.log(typeof (result));
+                                var divHighScore = document.createElement("div");
+                                divHighScore.className = "divHighScore";
+                                var playerName = document.createElement("h2");
+                                playerName.className = "playerName"
+                                playerName.innerHTML = "Người chơi";
+                                var playerScore = document.createElement("h2");
+                                playerScore.className = "playerScore"
+                                playerScore.innerHTML = "Điểm";
+                                var br = document.createElement("br");
+                                divHighScore.appendChild(playerName);
+                                divHighScore.appendChild(playerScore);
+                                divHighScore.appendChild(br);
+                                if (result != null) {
+                                    if (result.length == 5 && countScore > result[4].score && countScore <= result[0].score)
+                                        checkBest = true;
+                                    for (var i = 0; i < result.length; i++) {
+                                        var name = document.createElement("label");
+                                        name.className = "lblName";
+                                        if (result[i].User == null) {
+                                            name.innerHTML = "@Session["playerName"].ToString()";
+                                        }
+                                        else {
+                                            name.innerHTML = `${result[i].User.userName}`;
+                                        }
+                                        var score = document.createElement("label");
+                                        score.className = "lblScore";
+                                        score.innerHTML = `${result[i].score}`;
+                                        var br2 = document.createElement("br");
+                                        divHighScore.appendChild(name);
+                                        divHighScore.appendChild(score);
+                                        divHighScore.appendChild(br2);
+                                    }
+                                    document.getElementById("losemodal-content_id").appendChild(divHighScore);
+                                }
+                                if (checkBest == true) {
+                                    document.getElementById("id_loseContent").innerHTML = "Chúc mừng bạn đạt xếp hạng người chơi cao điểm nhất";
+                                }
+                                showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                                modal.style.display = "block";
+                            }
+                        })
+                    }
+                }
+                else {
+                    setTimeout(function ()
+                    {
+                        if (time == 0)
+                        {
+                            clearInterval(countTimeGame);
+                            if (checkWinGame == false)
+                            {
+                                var checkBest = false;
+                                $.ajax({
+                                    type: 'GET',
+                                    data:
+                                    {
+                                        userID: parseInt('@Session["playerID"].ToString()'),
+                                        score: parseInt(countScoreEl.value),
+                                        levelIDLose: parseInt(idLevel)
+                                    },
+                                    url: '@Url.Action("endGame", "_playerScore")',
+                                    dataType: 'json',
+                                    success: function (lstTop5)
+                                    {
+                                        var modal = document.getElementById("loseModal");
+                                        console.log(lstTop5);
+                                        var result = JSON.parse(JSON.stringify(lstTop5));
+                                        console.log(typeof (result));
+                                        var divHighScore = document.createElement("div");
+                                        divHighScore.className = "divHighScore";
+                                        var playerName = document.createElement("h2");
+                                        playerName.className = "playerName"
+                                        playerName.innerHTML = "Người chơi";
+                                        var playerScore = document.createElement("h2");
+                                        playerScore.className = "playerScore"
+                                        playerScore.innerHTML = "Điểm";
+                                        var br = document.createElement("br");
+                                        divHighScore.appendChild(playerName);
+                                        divHighScore.appendChild(playerScore);
+                                        divHighScore.appendChild(br);
+                                        if (result != null)
+                                        {
+                                            if (result.length == 5 && countScore > result[4].score && countScore <= result[0].score)
+                                                checkBest = true;
+                                            for (var i = 0; i < result.length; i++)
+                                            {
+                                                var name = document.createElement("label");
+                                                name.className = "lblName";
+                                                if (result[i].User == null)
+                                                {
+                                                    name.innerHTML = "@Session["playerName"].ToString()";
+                                                }
+                                                else
+                                                {
+                                                    name.innerHTML = `${result[i].User.userName}`;
+                                                }
+                                                var score = document.createElement("label");
+                                                score.className = "lblScore";
+                                                score.innerHTML = `${result[i].score}`;
+                                                var br2 = document.createElement("br");
+                                                divHighScore.appendChild(name);
+                                                divHighScore.appendChild(score);
+                                                divHighScore.appendChild(br2);
+                                            }
+                                            document.getElementById("losemodal-content_id").appendChild(divHighScore);
+                                        }
+                                        if (checkBest == true)
+                                        {
+                                            document.getElementById("id_loseContent").innerHTML = "Chúc mừng bạn đạt xếp hạng người chơi cao điểm nhất";
+                                        }
+                                        showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                                        modal.style.display = "block";
+                                    }
+                                })
+                            }
+                        }
+                    }, (time * speedcountTime + speedcountTime));
+                }
+            }, (time * speedcountTime + speedcountTime));
+            console.log("NumMatch:" + numMatch.toString());
+            console.log("NumWin:" + numWin.toString());
+    }
+        function disabledButton(arrayButton) {
+            arrayButton.forEach((button1) => {
+                button1.disabled = true;
+            });
+        }
+        function enabledButton(arrayButton) {
+            arrayButton.forEach((button1) => {
+                button1.disabled = false;
+            });
+        }
+        function addImageForButton() {
+            for (var i = 0; i < arrayButton.length; i++) {
+                arrayImageForButton.push(null);
+            }
+            numMatch = 0;
+            numWin = Math.floor(arrayButton.length / 2);
+            console.log("numWin: " + numWin.toString());
+            if (arrayButton.length % 2 == 0) {
+                for (var i = 0; i < numWin; i++) {
+                    var randImage = Math.floor(Math.random() * arrayImageDatabase.length);
+                    console.log("randImage: " + randImage.toString());
+                    var dem = 0;
+                    while (dem < 2) {
+                        var randButton = Math.floor(Math.random() * arrayImageForButton.length);
+                        console.log("randButton: " + randButton.toString());
+                        if (arrayImageForButton[randButton] == null) {
+                            arrayImageForButton[randButton] = arrayImageDatabase[randImage];
+                            dem++;
+                        }
+                    }
+                }
+            }
+            else {
+                for (var i = 0; i < numWin; i++) {
+                    var randImage = Math.floor(Math.random() * arrayImageDatabase.length);
+                    var dem = 0;
+                    console.log("randImage le: " + randImage.toString());
+                    while (dem < 2) {
+                        var randButton = Math.floor(Math.random() * arrayImageForButton.length);
+                        if (arrayImageForButton[randButton] == null) {
+                            arrayImageForButton[randButton] = arrayImageDatabase[randImage];
+                            dem++;
+                        }
+                    }
+                }
+                numWin += 1;
+            }
+
+        }
+        function setValueForButton() {
+            var buttonTemp
+            for (var kt = 0; kt < arrayButton.length; kt++) {
+                buttonTemp = document.getElementById(arrayButton[kt].id);
+                buttonTemp.setAttribute('value', kt);
+                console.log(buttonTemp.value);
+            }
+        }
+        function playGame() {
+            var dem = 0;
+            var flag = null;
+            arrayButton.forEach(button => button.addEventListener("click", function () {
+                dem++;
+                button.disabled = true;
+                if (flag == null) {
+                    flag = button;
+                }
+
+                var image = arrayImageForButton[parseInt(button.value)];
+                console.log(image);
+                if (image == null) {
+                    var modalCong = document.getElementById("odacbietModal");
+                    modalCong.style.display = "block";
+                    setTimeout(function () {
+                        modalCong.style.display = "none";
+                    }, 3000)
+                    time += 8;
+                    button.style.visibility = "hidden";
+                    resetArrayButton();
+                    dem = 0;
+                    flag = null;
+                    numMatch = numMatch + 1;
+                    var congthoigian = document.getElementById("congthoigian-audio");
+                    congthoigian.play();
+                    checkWin();
+                }
+                else {
+                    var path = "url(" + "'" + "../../Image/" + image.nameImage + "'" + ")";
+                    button.style.backgroundImage = path;
+                }
+                if (dem == 2) {
+                    disabledButton(arrayButton);
+                    if (flag.style.backgroundImage == button.style.backgroundImage) {
+                        countScore += scoreRange;
+                        countScoreEl.value = `${countScore}`;
+                        setTimeout(function () {
+                            flag.style.visibility = "hidden";
+                            button.style.visibility = "hidden";
+                            flag = null;
+                            dem = 0;
+                            console.log("nummatch test:" + numMatch.toString());
+                            enabledButton(arrayButton);
+                            numMatch = numMatch + 1;
+                            var match = document.getElementById("match-audio");
+                            match.play();
+                            checkWin();
+                        }, 200);
+                    }
+                    else {
+                        setTimeout(function () {
+                            flag.style.backgroundImage = "url('../../Image/backgroundbutton.jpg')";
+                            button.style.backgroundImage = "url('../../Image/backgroundbutton.jpg')";
+                            flag = null;
+                            dem = 0;
+                            enabledButton(arrayButton);
+                            var wrong = document.getElementById("wrong-audio");
+                            wrong.play();
+                        }, downButton);
+                    }
+                }
+            }));
+        }
+        function resetArrayButton() {
+            arrayButton.forEach((button1) => {
+                button1.style.backgroundImage = "url('../../Image/backgroundbutton.jpg')";
+                button1.disabled = false;
+            });
+        }
+        function checkWin() {
+            if (numWin == numMatch) {
+                checkWinGame = true;
+                clearInterval(countTimeGame);
+                console.log("check win game" + checkWinGame.toString());
+                var quamanAudio = document.getElementById("quaman-audio");
+                quamanAudio.play();
+                var modal = document.getElementById("myModal");
+                modal.style.display = "block";
+            }
+        }
+        function countTime() {
+            var minutes = Math.floor(time / 60);
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            var seconds = time % 60;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            countDownEl.innerHTML = `${minutes}:${seconds}`;
+            if (time!=0) {
+                time--;
+            }
+        }
+        function stopTime(countTimeGame) {
+            if (time == 0) {
+                clearInterval(countTimeGame);
+            }
+        }
+        function resetData() {
+            table.remove();
+            arrayButton = [];
+            arrayImageForButton = [];
+            row = 0;
+            col = 0;
+            checkWinGame = false;
+            console.log("id Level Next" +idLevel);
+            clearInterval(countTimeGame);
+    }
+        $("#pause").click(function () {
+            clearInterval(countTimeGame);
+            if (time == 0) {
+                time += 1;
+            }
+            var modal = document.getElementById("pauseModal");
+            modal.style.display = "block";
+        })
+        $("#id_replay_Pause").click(function () {
+            var modal = document.getElementById("pauseModal");
+            modal.style.display = "none";
+            countTimeGame = setInterval(countTime, speedcountTime);
+            setTimeout(function () {
+                if (time == 0) {
+                    clearInterval(countTimeGame);
+                    if (checkWinGame == false) {
+                        var modal = document.getElementById("loseModal");
+                        var checkBest = false;
+                        $.ajax({
+                            type: 'GET',
+                            data: {
+                                userID: parseInt('@Session["playerID"].ToString()'),
+                                score: parseInt(countScoreEl.value),
+                                levelIDLose: parseInt(idLevel)
+                            },
+                            url: '@Url.Action("endGame", "_playerScore")',
+                            dataType: 'json',
+                            success: function (lstTop5) {
+                                var modal = document.getElementById("loseModal");
+                                console.log(lstTop5);
+                                var result = JSON.parse(JSON.stringify(lstTop5));
+                                console.log(typeof (result));
+                                var divHighScore = document.createElement("div");
+                                divHighScore.className = "divHighScore";
+                                var playerName = document.createElement("h2");
+                                playerName.className = "playerName"
+                                playerName.innerHTML = "Người chơi";
+                                var playerScore = document.createElement("h2");
+                                playerScore.className = "playerScore"
+                                playerScore.innerHTML = "Điểm";
+                                var br = document.createElement("br");
+                                divHighScore.appendChild(playerName);
+                                divHighScore.appendChild(playerScore);
+                                divHighScore.appendChild(br);
+                                if (result != null) {
+                                    if (result.length == 5 && countScore > result[4].score && countScore <= result[0].score)
+                                        checkBest = true;
+                                    for (var i = 0; i < result.length; i++) {
+                                        var name = document.createElement("label");
+                                        name.className = "lblName";
+                                        if (result[i].User == null)
+                                        {
+                                            name.innerHTML = "@Session["playerName"].ToString()";
+                                        }
+                                        else {
+                                            name.innerHTML = `${result[i].User.userName}`;
+                                        }
+                                        var score = document.createElement("label");
+                                        score.className = "lblScore";
+                                        score.innerHTML = `${result[i].score}`;
+                                        var br2 = document.createElement("br");
+                                        divHighScore.appendChild(name);
+                                        divHighScore.appendChild(score);
+                                        divHighScore.appendChild(br2);
+                                    }
+                                    document.getElementById("losemodal-content_id").appendChild(divHighScore);
+                                }
+                                if (checkBest == true) {
+                                    document.getElementById("id_loseContent").innerHTML = "Chúc mừng bạn đạt xếp hạng người chơi cao điểm nhất";
+                                }
+                                showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                                modal.style.display = "block";
+                            }
+                        })
+                    }
+                }
+            }, (time * speedcountTime + speedcountTime));
+        })
+        $("#id_replay").click(function () {
+            var modal = document.getElementById("loseModal");
+            modal.style.display = "none";
+            countScoreEl.value = 0;
+            resetData();
+            startGame('@Session["levelName"].ToString()', '@Session["levelID"].ToString()','@Session["timeGame"]','@Session["rangeScore"]');
+        })
+        $("#quit").click(function () {
+            clearInterval(countTimeGame);
+            var checkBest = false;
+            $.ajax({
+                type: 'GET',
+                data: {
+                    userID: parseInt('@Session["playerID"].ToString()'),
+                    score: parseInt(countScoreEl.value),
+                    levelIDLose: parseInt(idLevel)
+                },
+                url: '@Url.Action("endGame", "_playerScore")',
+                dataType: 'json',
+                success: function (lstTop5) {
+                    var modal = document.getElementById("loseModal");
+                    console.log(lstTop5);
+                    var result = JSON.parse(JSON.stringify(lstTop5));
+                    console.log(typeof (result));
+                    var divHighScore = document.createElement("div");
+                    divHighScore.className = "divHighScore";
+                    var playerName = document.createElement("h2");
+                    playerName.className = "playerName"
+                    playerName.innerHTML = "Người chơi";
+                    var playerScore = document.createElement("h2");
+                    playerScore.className = "playerScore"
+                    playerScore.innerHTML = "Điểm";
+                    var br = document.createElement("br");
+                    divHighScore.appendChild(playerName);
+                    divHighScore.appendChild(playerScore);
+                    divHighScore.appendChild(br);
+                    if (result != null) {
+                        if (result.length == 5 && countScore > result[4].score && countScore <= result[0].score)
+                            checkBest = true;
+                        for (var i = 0; i < result.length; i++) {
+                            var name = document.createElement("label");
+                            name.className = "lblName";
+                            if (result[i].User == null)
+                            {
+                                name.innerHTML = "@Session["playerName"].ToString()";
+                            }
+                            else
+                            {
+                                name.innerHTML = `${result[i].User.userName}`;
+                            }
+                            var score = document.createElement("label");
+                            score.className = "lblScore";
+                            score.innerHTML = `${result[i].score}`;
+                            var br2 = document.createElement("br");
+                            divHighScore.appendChild(name);
+                            divHighScore.appendChild(score);
+                            divHighScore.appendChild(br2);
+                        }
+                        document.getElementById("losemodal-content_id").appendChild(divHighScore);
+                    }
+                    if (checkBest == true) {
+                        document.getElementById("id_loseContent").innerHTML = "Chúc mừng bạn đạt xếp hạng người chơi cao điểm nhất";
+                    }
+                    showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                    modal.style.display = "block";
+                }
+            })
+
+        })
+        $("#id_stop_level").click(function () {
+            var modal = document.getElementById("pauseModal");
+            modal.style.display = "none";
+            clearInterval(countTimeGame);
+            var checkBest = false;
+            $.ajax({
+                type: 'GET',
+                data: {
+                    userID: parseInt('@Session["playerID"].ToString()'),
+                    score: parseInt(countScoreEl.value),
+                    levelIDLose: parseInt(idLevel)
+                },
+                url: '@Url.Action("endGame", "_playerScore")',
+                dataType: 'json',
+                success: function (lstTop5) {
+                    var modal = document.getElementById("loseModal");
+                    console.log(lstTop5);
+                    var result = JSON.parse(JSON.stringify(lstTop5));
+                    console.log(typeof (result));
+                    var divHighScore = document.createElement("div");
+                    divHighScore.className = "divHighScore";
+                    var playerName = document.createElement("h2");
+                    playerName.className = "playerName"
+                    playerName.innerHTML = "Người chơi";
+                    var playerScore = document.createElement("h2");
+                    playerScore.className = "playerScore"
+                    playerScore.innerHTML = "Điểm";
+                    var br = document.createElement("br");
+                    divHighScore.appendChild(playerName);
+                    divHighScore.appendChild(playerScore);
+                    divHighScore.appendChild(br);
+                    if (result != null) {
+                        if (result.length==5 && countScore > result[4].score && countScore <= result[0].score)
+                            checkBest = true;
+                        for (var i = 0; i < result.length; i++) {
+                            var name = document.createElement("label");
+                            name.className = "lblName";
+                            if (result[i].User == null)
+                            {
+                               name.innerHTML = "@Session["playerName"].ToString()";
+                            }
+                            else
+                            {
+                                name.innerHTML = `${result[i].User.userName}`;
+                            }
+                            var score = document.createElement("label");
+                            score.className = "lblScore";
+                            score.innerHTML = `${result[i].score}`;
+                            var br2 = document.createElement("br");
+                            divHighScore.appendChild(name);
+                            divHighScore.appendChild(score);
+                            divHighScore.appendChild(br2);
+                        }
+                        document.getElementById("losemodal-content_id").appendChild(divHighScore);
+                    }
+                    if (checkBest == true)
+                    {
+                        document.getElementById("id_loseContent").innerHTML = "Chúc mừng bạn đạt xếp hạng người chơi cao điểm nhất";
+                    }
+                    showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                    modal.style.display = "block";
+                }
+            })
+        })
+        $("#id_continue").click(function () {
+            resetData();
+            $("#containerGameID").hide();
+            $("#idLoading").show();
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+            $.ajax({
+                type: 'GET',
+                data: {
+                    currentLevelID: parseInt(idLevel)
+                },
+                url: '@Url.Action("nextLevel", "_game")',
+                dataType:'json',
+                success: function (nextLevel) {
+                    $("#idLoading").hide();
+                    console.log("nextLevel:"+ nextLevel);
+                    var result = JSON.parse(JSON.stringify(nextLevel));
+                    var checkBest = false;
+                    console.log("result:" + result.levelID);
+                    if (result.levelID == 0) {
+                        $.ajax({
+                            type: 'GET',
+                            data:
+                            {
+                                userID: parseInt('@Session["playerID"].ToString()'),
+                                score: parseInt(countScoreEl.value),
+                                levelIDLose: parseInt(idLevel)
+                            },
+                            url: '@Url.Action("endGame", "_playerScore")',
+                            dataType: 'json',
+                            success: function (lstTop5) {
+                                var modal = document.getElementById("winModal");
+                                console.log(lstTop5);
+                                var result = JSON.parse(JSON.stringify(lstTop5));
+                                console.log(typeof (result));
+                                var divHighScore = document.createElement("div");
+                                divHighScore.className = "divHighScore";
+                                var playerName = document.createElement("h2");
+                                playerName.className = "playerName"
+                                playerName.innerHTML = "Người chơi";
+                                var playerScore = document.createElement("h2");
+                                playerScore.className = "playerScore"
+                                playerScore.innerHTML = "Điểm";
+                                var br = document.createElement("br");
+                                divHighScore.appendChild(playerName);
+                                divHighScore.appendChild(playerScore);
+                                divHighScore.appendChild(br);
+                                if (result != null)
+                                {
+                                    for (var i = 0; i < result.length; i++)
+                                    {
+                                        var name = document.createElement("label");
+                                        name.className = "lblName";
+                                        if (result[i].User == null)
+                                        {
+                                            name.innerHTML = "@Session["playerName"].ToString()";
+                                        }
+                                        else
+                                        {
+                                            name.innerHTML = `${result[i].User.userName}`;
+                                        }
+                                        var score = document.createElement("label");
+                                        score.className = "lblScore";
+                                        score.innerHTML = `${result[i].score}`;
+                                        var br2 = document.createElement("br");
+                                        divHighScore.appendChild(name);
+                                        divHighScore.appendChild(score);
+                                        divHighScore.appendChild(br2);
+                                    }
+                                document.getElementById("winmodal-content_id").appendChild(divHighScore);
+                            }
+                            showScoreEl.innerHTML = "Điểm của bạn là:" + "\t" + `${countScore}`;
+                            modal.style.display = "block";
+                        }
+                    })
+                    }
+                    else {
+                        startGame(result.levelName, result.levelID, result.time, result.rangeScore);
+                        $("#containerGameID").show();
+                    }
+                }
+            })
+        });
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        startGame('@Session["levelName"].ToString()', '@Session["levelID"].ToString()','@Session["timeGame"]','@Session["rangeScore"]');
+</script>
+
